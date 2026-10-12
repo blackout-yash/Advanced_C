@@ -3,8 +3,6 @@
 using namespace std;
 
 # if 0
-// ---------- 1. Basic function template, two types ----------
-
 // typename and class mean the same here.
 // Only exception: typename is a must for T::value_type (see block 2).
 
@@ -173,5 +171,5 @@ int main() {
 
 #endif
 
-// g++ main.cpp -o app
-// g++ -std=c++17 main.cpp -o app
+// g++ main_day1.cpp -o app
+// g++ -std=c++17 main_day1.cpp -o app
